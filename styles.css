@@ -17,7 +17,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* Set a style for all buttons */
 button {
-  background-color: #04AA6D;
+  background-color: #2011e8;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -34,7 +34,7 @@ button:hover {
 /* Extra styles for the cancel button */
 .cancelbtn {
   padding: 14px 20px;
-  background-color: #f44336;
+  background-color: #f31707;
 }
 
 /* Float cancel and signup buttons and add an equal width */
@@ -70,13 +70,11 @@ button:hover {
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
-/* Style the horizontal ruler */
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
 
-/* The Close Button (x) */
 .close {
   position: absolute;
   right: 35px;
@@ -92,14 +90,12 @@ hr {
   cursor: pointer;
 }
 
-/* Clear floats */
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
     width: 100%;
